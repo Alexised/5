@@ -1,7 +1,6 @@
 function bucle(){
 
 
-<<<<<<< HEAD
 var numeros;
 var cont=0,cont1=0,cont2=0;
 var x,y,z;
@@ -37,29 +36,3 @@ document.write("<center>"+"<h2>" +"el triangulo de menor cantidad es isoceles"+ 
 document.write("<center>"+"<h2>" +"el triangulo de menor cantidad es escaleno"+ "<h2/>"+"</center>")
 }
 }
-=======
-
-
-	var n ;
-n= document.getElementById("n").value;
-for (var i = 1; i <= 12; i++) {
-	
-	
-	var node = document.createElement("p");
-	
-	
-	var textnode = document.createTextNode(n*i);
-
-	
-	node.appendChild(textnode);
-
-	
-	document.getElementById("respuesta").appendChild(node);
-
-	 }
-
-	 	
-
-	}
-
->>>>>>> b0ac7c73433d207f08f9ccf25f33730514f6b90f
